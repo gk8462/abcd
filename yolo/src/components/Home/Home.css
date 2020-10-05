@@ -1,0 +1,24 @@
+.grid_row{width: 82%; margin-left: 9%; padding-bottom: 10px;}
+.grid_row:after{display: table; clear: both; content: "";}
+.cardd{float: left; width: 23.5%; margin-left: 1.5%; margin-bottom: 20px; text-align: left; 
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1); padding-top: 5px;   border-radius: 5px;
+}
+.cardd:hover{box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);}    
+.cardd_padding{width: 90%; margin-left: 5%; padding-bottom: 10px;}    
+@media only screen and (max-width: 700px){.cardd{width: 80%; margin-left: 10%;}}
+
+.header_element{width: 100%; height: 90px;}
+.header_element:after{clear: both; display: table; content:"";}
+.left_header{float: left; width: 40%; height: 90px; text-align: center;}
+.right_header{float: left; width: 60%; height: 90px; text-align: left; padding-top: 15px;}
+
+.link_hover{color: #4d4d4d;}
+.link_hover:hover{color: #000;}
+
+#hsg{display: none;}
+
+
+.modal_row{width: 450px;}
+.modal_row:after{display: table; clear: both; content: "";}
+
+.modal_column{width: 33.33%; float: left; padding: 3px 0px 3px 0px; text-align: center;}

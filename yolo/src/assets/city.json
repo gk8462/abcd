@@ -1,0 +1,54 @@
+[
+    {
+        "id": "1",
+        "name": "Delhi",
+        "country": "India"
+    },
+    {
+        "id": "2",
+        "name": "Bengaluru",
+        "country": "India"
+    },
+    {
+        "id": "3",
+        "name": "Mumbai",
+        "country": "India"
+    },
+
+    {
+        "id": "4",
+        "name": "Toronto",
+        "country": "Canada"
+    },
+    {
+        "id": "5",
+        "name": "Ottawa",
+        "country": "Canada"
+    },
+    {
+        "id": "6",
+        "name": "Victory",
+        "country": "Canada"
+    },
+    {
+        "id": "7",
+        "name": "Rome",
+        "country": "Italy"
+    },
+    {
+        "id": "8",
+        "name": "Venice",
+        "country": "Italy"
+    },
+    {
+        "id": "9",
+        "name": "Turin",
+        "country": "Italy"
+    }
+
+
+
+
+
+
+]

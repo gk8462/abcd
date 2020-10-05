@@ -1,0 +1,51 @@
+html{scroll-behavior: smooth;}
+
+.box_shadow{box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25); border-radius: 2px;}
+
+.profile_container{width: 86%; margin-left: 7%;  margin-top: 30px; }
+.profile_container:after{display: table; content: ""; clear: both;}
+@media only screen and (max-width: 750px) {.profile_container{width: 90%; margin-left: 5%;}}
+
+.left_profile_container{float: left;width: 68%; margin-left: 2%; min-height: 350px; padding: 0px 0px 10px 0px; }
+.right_profile_container{float: left;width: 27%; margin-left: 1%; min-height: 375px; padding: 10px 0px 10px 0px; }
+@media only screen and (max-width: 750px) 
+{.left_profile_container,.right_profile_container{width: 90%; margin-left: 5%;}}
+
+.bottom_container{width: 100%; margin-top: 15px; min-height: 80px; padding: 10px 0px 10px 0px;}
+
+
+.rounded_image{width: 120px; height: 120px; border-radius: 50%; 
+    border: 4px solid #f2f2f2;box-Shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3); }
+
+
+.similar_profiles_heading{width: 58.3%; margin-left: 8.7%; text-align: left;
+    padding-left: 2%; padding-right: 2%; padding-top: 15px; padding-bottom: 15px;} 
+@media only screen and (max-width: 750px) 
+{.similar_profiles_heading{width: 81.6%; margin-left: 9.1%; margin-top: 10px}}    
+
+.similar_container{width: 100%; margin-left: -1%; height: 290px; padding: 0%;
+     overflow-x: scroll;
+     white-space: nowrap;}  
+
+.sim_con{width: 1500px;}    
+.similar_container::-webkit-scrollbar {
+    width: 0px;
+}
+
+.navigation_button_div{width: 100%; height: 1px; 
+    display: none; position: relative; top:185px}
+.sub_navigation_button_div{width: 20%; height:50px;}  
+.navigation_button{border-radius: 50%; border: none; background-color: #fff; padding: 10px;}
+.navigation_button:focus{outline: none;}
+
+
+
+#similar_profile_location{display: none;}
+#similar_profile_expertise{display: none;}
+#similar_profile_service{display: none;}
+
+.see_more_link_buttons{background: none; border: none; text-decoration: underline; margin-left: -5px;}
+.see_more_link_buttons:focus{outline: none;}
+
+
+

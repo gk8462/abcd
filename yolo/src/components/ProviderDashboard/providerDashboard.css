@@ -1,0 +1,15 @@
+.box_shadow{box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25); border-radius: 2px;}
+
+.profile_container{width: 86%; margin-left: 7%; min-height: 450px; margin-top: 30px; }
+.profile_conatiner:after{display: table; content: ""; clear: both;}
+
+.left_profile_container{float: left;width: 68%; margin-left: 2%; min-height: 350px; padding: 0px 0px 10px 0px; }
+.right_profile_container{float: left;width: 27%; margin-left: 1%; min-height: 375px; padding: 10px 0px 10px 0px; }
+.bottom_container{width: 100%; margin-top: 15px; min-height: 80px; padding: 10px 0px 10px 0px;}
+
+
+.rounded_image{width: 120px; height: 120px; border-radius: 50%; 
+    border: 4px solid #f2f2f2;box-Shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3); }
+
+
+.similar_container{width: 82.6%; margin-left: 8.5%; min-height: 70px; margin-top: 10px; text-align: left; padding: 2%;}    

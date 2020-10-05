@@ -1,0 +1,19 @@
+.rootHead {
+    /* flex-grow: 1; */
+    padding-top: 200px;
+    max-width: 70% !important;
+    width: 300px;
+    padding-left: 300px;
+}
+.MuiFormControl-fullWidth {
+    padding-bottom: 50px;
+}
+.phoneNumber {
+    width: 300px;
+}
+
+.rootFlex {
+    display: inline-flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

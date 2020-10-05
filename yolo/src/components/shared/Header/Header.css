@@ -1,0 +1,56 @@
+.rootSearch {
+    padding: '2px 4px';
+    display: 'flex';
+    padding-top: 100px;
+    align-items: 'center';
+    margin-top: 50px;
+    padding-top:50px;
+    top:3;
+    width: 400
+}
+
+.margin {
+    width: 300px;
+}
+
+.input {
+    flex: 1,
+}
+
+.iconButton {
+    padding: 10,
+}
+
+.divider {
+    height: 28;
+    margin: 4px;
+}
+
+.balloon {
+    background: #ccc;
+    height:80px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    position:absolute;
+    padding: 20px;
+    font-size: 12px;
+    width: 500px;
+    text-align: justify;
+    color: #3a3a3a;
+    z-index: 200;
+    right: 0;
+    top: 50px;
+    left: 50px
+}
+.balloon .arrow {
+    border-color: transparent transparent transparent #CCCCCC;
+    border-style: solid;
+    border-width: 10px;
+    display: block;
+    height: 0;
+    right: -20px;
+    position: absolute;
+    top: 20px;
+    width: 0;
+}

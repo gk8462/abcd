@@ -1,0 +1,30 @@
+.grid_row{width: 100%; }
+.grid_row:after{display: table; clear: both; content: "";}
+.cardd{float: left; width: 230px; margin-left: 15px; height: 220px; text-align: left; 
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25); padding-top: 5px; border-radius: 5px;
+}
+.cardd:hover{box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);}    
+.cardd_padding{width: 90%; margin-left: 5%; padding-bottom: 10px;}    
+
+
+.header_element{width: 100%; height: 90px;}
+.header_element:after{clear: both; display: table; content:"";}
+.left_header{float: left; width: 40%; height: 90px; text-align: center;}
+.right_header{float: left; width: 60%; height: 90px; text-align: left; padding-top: 15px;}
+
+.link_hover{color: #4d4d4d;}
+.link_hover:hover{color: #000;}
+
+#hsg{display: none;}
+
+
+.modal_header{width: 100%; text-align: center; color: #fff; padding: 10px 0px 10px 0px;}
+.modal_content{width: 100%; background-color: #f2f2f2; color: #4d4d4d; }
+.inner_modal_content{width: 94%; margin-left: 3%; padding-top: 10px; padding-bottom: 10px;}
+
+.inner_content{width: 96%; margin-left: 2%; background-color: #fff; font-size: 13px;
+     padding: 5px 0px 5px 5px; margin-top: 10px; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+
+
+.unverified_modal{width: 100%; text-align: center; background-color: #fff; color: #4d4d4d; padding: 10px 0px 10px 0px;}     
+

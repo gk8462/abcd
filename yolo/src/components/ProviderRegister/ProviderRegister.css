@@ -1,0 +1,126 @@
+.box_shadow{box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1); border-radius: 2px;}
+.border{border: 0.5px solid rgba(242, 242, 242,0.5);}
+
+.full_data_container{width: 70%; margin-left: 15%; padding: 0px 0px 30px 0px; margin-top: 100px;margin-bottom: 50px;}
+@media only screen and (max-width: 750px) {.full_data_container{width: 90%; margin-left: 5%;}}
+
+.form_container{width: 200%; margin-left: -50%; padding: 30px 0px 30px 0px;  margin-top: -50px; margin-bottom: 50px;}
+@media only screen and (max-width: 750px) {.form_container{width: 130%; margin-left: -20%;  margin-top: 0px;}}
+
+
+
+
+.form_header{width: 90%; margin-left: 5%;  text-align: left;}
+
+.dropDown{
+    width: 400px;
+}
+@media only screen and (max-width: 768px) {
+    .dropDown{
+        width: 300px;
+    }
+  }
+
+
+
+
+.root {
+    padding-top: 220px !important;
+    max-width: 90% !important;
+    width: 300px !important;
+}
+
+.stepperShrink {
+    padding-top: 85px;
+    margin-bottom: 40px;
+    height: 40px;
+}
+
+.shrink {
+    width: 84%;
+    padding-top: 84px;
+    padding-left: 100px;
+}
+.MuiFormControl-fullWidth {
+    padding-bottom: 50px;
+}
+
+.avatarRe {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.movie_item {
+    position: relative;
+    margin-top: 10px;
+    height: 175px;
+}
+
+.movie_item_poster {
+    float: left;
+    height: 150px;
+    width: 100px;
+}
+
+.movie_item_toolbar {
+    clear: both;
+    vertical-align: bottom;
+    width: 100%;
+    height: 25px;
+}
+
+.MuiChip-root .MuiChip-avatar {
+    margin-left: 0px;
+}
+
+
+
+/* .root {
+    padding-top: 220px !important;
+    max-width: 70% !important;
+    width: 300px !important;
+}
+
+.stepperShrink {
+    padding-top: 85px;
+    margin-bottom: 40px;
+    height: 40px;
+}
+
+.shrink {
+    width: 84%;
+    padding-top: 84px;
+    padding-left: 100px;
+}
+.MuiFormControl-fullWidth {
+    padding-bottom: 50px;
+}
+
+.MuiAvatar-circle {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.avatarRe {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.movie_item {
+    position: relative;
+    margin-top: 10px;
+    height: 175px;
+}
+
+.movie_item_poster {
+    float: left;
+    height: 150px;
+    width: 100px;
+}
+
+.movie_item_toolbar {
+    clear: both;
+    vertical-align: bottom;
+    width: 100%;
+    height: 25px;
+} */
